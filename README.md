@@ -19,7 +19,7 @@ git clone https://github.com/21isshak/minishell_21isshak.git
 then open the repo and do make
 
 ```bash
-cd minishell
+cd minishell_21isshak
 ```
 
 ```bash
