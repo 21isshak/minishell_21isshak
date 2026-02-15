@@ -1,21 +1,23 @@
-****************1) exit kontrol*****************************************
+****************1) exit control****************************************
 
-****************2) return value of process:*****************************
+****************2) return value of process:****************************
 	-> echo $?
 	-> expr $? + $?
    
-****************3) ctrl-C kontrol:**************************************
-	-> bos bir komut ardindan ctrl-C yapinca yeni satirda Enter'a tilayinca sikintisiz olmasi lazim. Yani bufferi temizlemek lazim (bashi kontrol et).
-	-> cat veya grep gibi bloke edecek komuttu argumansiz yaziktan sonraki ctrl-C sikintisiz olmasi lazim (bashi kontrol et).
+****************3) ctrl-C control:*************************************
+	-> when pressed ctrl+c after a nonsense command, on a new line pressing Enter should work without problems. So buffer needs to be cleaned (check bash).
+	-> ctl+c after no argument used comands like cat or grep which cause blockage should work (checak the bash).
 	
-****************4) double quotes("") kontrolu:**************************
-	-> echo cat a | cat > a   bu komutu dene hem bashete hem minide
-	-> echo "cat a | cat > a" bunu da dene
+****************4) double quotes("") control:**************************
+	-> echo cat a | cat > a
+	-> echo "cat a | cat > a"
 	
-****************5) single quotes('') kontrolu***************************
+****************5) single quotes('') control***************************
 
-****************6) pipes kontrolu***************************************
+****************6) pipes control***************************************
 
-****************7) redirections kontrolu ama cok karmasik***************
+****************7) redirections control but very complex **************
 
-****************8) env kontrolu ve enviroment variables kontrolu********
+****************8) env control and enviroment variables control********
+
+**********************maybe there are more*****************************
