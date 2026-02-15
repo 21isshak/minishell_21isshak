@@ -10,10 +10,10 @@ Check to_do_list to see for what improvements needs to be done.
 
 ## Installation and Testing
 
-to install this project clone the [repo](https://github.com/21isshak/minishell.git)
+to install this project clone the [repo](https://github.com/21isshak/minishell_21isshak.git)
 
 ```bash
-git clone https://github.com/21isshak/minishell.git
+git clone https://github.com/21isshak/minishell_21isshak.git
 ```
 
 then open the repo and do make
